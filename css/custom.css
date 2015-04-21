@@ -1,9 +1,58 @@
 #hm {
-    background-image: url("../images/hm.png");
+    position: relative;
     height: 500px;
 }
 
-#devs {
-    background-image: url("../images/devs.png");
+#hm * {
+    z-index: 2;
+    position: relative;
+}
+
+#hm:before {
+    background-image: url("../images/hm.png");
+    content: ' ';
+    display: block;
+    position: absolute;
     height: 500px;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#devs {
+    position: relative;
+    height: 500px;
+}
+#devs * {
+    z-index: 2;
+    position: relative;
+}
+
+#devs:before {
+    background-image: url("../images/devs.png");
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 500px;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
