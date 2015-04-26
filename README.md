@@ -1,5 +1,5 @@
 # README - Full Stack Group
-# The Mean Exchange App
+## The Mean Exchange App
 
 #### References:
 
@@ -13,8 +13,8 @@
 #### To run The Mean Exchange app:
 
 1. Install repo locally (clone or download)
-		$git clone git@github.com:austin-pair-programming/full-stack-react.git
 
+		$git clone git@github.com:austin-pair-programming/full-stack-react.git
 2. Need to have React Tools installed
 
 		$npm install -g react-tools
