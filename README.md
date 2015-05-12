@@ -18,6 +18,10 @@
 2. Need to have React Tools installed
 
 		$npm install -g react-tools
-2. Run JSX transformer to transform JSX in the browser
+3. Run JSX transformer to transform JSX in the browser
 
 		$jsx --watch src/ build/
+
+#### FAQs
+
+Please go to the [wiki](https://github.com/austin-pair-programming/full-stack-react/wiki) to view general questions about this project.
