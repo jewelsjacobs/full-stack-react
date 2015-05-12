@@ -21,6 +21,10 @@
 2. Run JSX transformer to transform JSX in the browser
 
 		$jsx --watch src/ build/
+		
+#### FAQs
+
+Please go to the [wiki](https://github.com/austin-pair-programming/full-stack-react/wiki) to view general questions about this project.
 
 
 #### Syncing Your Fork
