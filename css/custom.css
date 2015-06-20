@@ -1,15 +1,16 @@
-#hm {
+.login-panel {
     position: relative;
     height: 500px;
+    padding: 4em;
+    font-size: 1.1em;
 }
 
-#hm * {
+.login-panel * {
     z-index: 2;
     position: relative;
 }
 
-#hm:before {
-    background-image: url("../images/hm.png");
+.login-panel:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -28,31 +29,25 @@
     background-size: cover;
 }
 
-#devs {
-    position: relative;
-    height: 500px;
+/* Social Colors */
+.linkedin-bg {
+    background-color: #007bb6 !important;
 }
-#devs * {
-    z-index: 2;
-    position: relative;
+.linkedin {
+    color: #007bb6 !important;
+}
+.github-bg {
+    background-color: #333333 !important;
+}
+.github {
+    color: #333333 !important;
+}
+/* End Social */
+
+#hm:before {
+    background-image: url("../images/hm.png");
 }
 
 #devs:before {
     background-image: url("../images/devs.png");
-    content: ' ';
-    display: block;
-    position: absolute;
-    height: 500px;
-    opacity: .3;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
 }

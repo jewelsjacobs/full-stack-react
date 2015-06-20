@@ -14,46 +14,32 @@ var Login = React.createClass({
                     <Col md={12}><h1>THE MEAN EXCHANGE</h1></Col>
                 </Row>
                 <Row>
-                    <Col md={12} className="alert alert-dismissable alert-success">
-                        <h1>General Info</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                    <Col md={12}>
+                        <Alert bsStyle="success">
+                            <h1>General Info</h1>
+                            <p>Welcome, job seeker / employee seeker. Please login to begin your quest.</p>
+                        </Alert>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6} id="hm" className="text-center">
-                        <h1>Looking to hire web developers?</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        </p>
-                        <p>
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <Button bsSize='large' bsStyle='primary'>Login</Button>
+                    <Col md={6}>
+                        <div id="hm" className="login-panel text-center">
+                            <h1>PROFESSIONAL</h1>
+                            <p>Are you ready to hire? Ready to apply? Log in and get started now.</p>
+                            <p>We help connect employers and applicants on the cutting edge of web technology. As developers ourselves in the new era of always changing frameworks and languages, we give both developers and employers the knowledge and connections they need to get to where they want to be.</p>
+                            <div>
+                                <Button bsSize='large' bsStyle='primary' className='linkedin-bg'><i className="fa fa-linkedin"></i> Login</Button>
+                            </div>
+                        </div>
                     </Col>
-                    <Col md={6} id="devs" className="text-center">
-                        <h1>Want to be qualified for the perfect job?</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        </p>
-                        <p>
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <Button bsSize='large' bsStyle='primary'>Login</Button>
+                    <Col md={6}>
+                        <div id="devs" className="login-panel text-center">
+                            <h1>HIP AND SILLY</h1>
+                            <p>In a world of buzzwords where frameworks come into an out of fashion faster than Moore's law, it can be hard to find the job or the applicants you need. Whether you're the job hunter or the job huntee, we've got the goods for you. We aim to connect awesome employees to employers and also to bring more applicants up to speed to make the pool of applicants even better. So buckle up, log in and let's get this started.</p>
+                            <div>
+                                <Button bsSize='large' bsStyle='primary' classNam="github-bg"><i className="fa fa-github"></i> Login</Button>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
                 <Row>
